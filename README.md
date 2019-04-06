@@ -29,14 +29,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+   forEach() will allow a callback function to mutate the array, while map() will instead return a new array.
 
 2. What is the difference between a function and a method?
+   No difference other than one of the functions(method) is a property on an object and can only be called by the object or its children etc.
 
 3. What is closure?
+   Generally it is a function which is passed around with the intent of being called at a later time, such as callback functions.
 
 4. Describe the four rules of the 'this' keyword.
+   a) If the new keyword is used when calling the function, "this" inside the function is a brand new object.
+   
+   b) If apply(), call(), or bind() are used to call a function, "this" inside the function is the object that is passed in as the argument.
+
+   c) when a dot is to the left of a function invocation, this is the object to the left of the dot.
+
+   d) Anything other than the above situations and "this" inside the function is a global object.
 
 5. Why do we need super() in an extended class?
+   super() is needed to call back the parent class with whatever parameters it needs.
+   
 
 ## Project Set up
 
